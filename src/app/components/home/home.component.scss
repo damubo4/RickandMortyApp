@@ -1,0 +1,34 @@
+.image {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  top: 70%;
+  border: 0;
+  //background-color: #09f;
+  background-color: #02c9d5;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+    background: none;
+}
+
+.button:active {
+    transform: scale(0.9);
+}

@@ -1,0 +1,89 @@
+$first-color: #00c4ff;
+$second-color: #fff;
+$third-color: #000;
+$fourth: transparent;
+
+.background-content {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 1, 1) 9%,
+    rgba(2, 21, 25, 1) 35%,
+    rgba(2, 16, 25, 1) 100%
+  );
+  min-height: calc(100vh - 98px);
+}
+
+.card {
+  width: 70%;  
+  background-color: $fourth;
+}
+
+.card-image {
+  background-color: black;  
+  width: 100%;  
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.text-information {
+  h3 {
+    color: $second-color;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  h2 {
+    color: $second-color;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  label {
+    color: $second-color;
+    margin-right: 15px;
+  }
+}
+
+hr {
+  background-color: $second-color;
+}
+
+.select_episode {
+  background-color: black;
+  color: $second-color;
+  margin-right: 20px;
+}
+
+.back {
+  color: $second-color;
+  cursor: pointer;
+  a {
+    color: $second-color;
+    margin: 3px;
+  }
+  a:hover {
+    color: $first-color;
+  }
+  span {
+    margin: 3px;
+    vertical-align: super;
+  }
+}
+
+.button-submit {
+  background-color: $fourth;
+  color: $first-color;
+  border: $first-color solid 2px;
+  margin: 0 20px;
+  padding: 0px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.button-submit:hover {
+  background-color: $first-color;
+  color: $second-color;
+  border: $second-color solid 2px;
+}

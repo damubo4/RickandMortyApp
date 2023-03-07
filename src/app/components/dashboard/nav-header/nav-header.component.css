@@ -1,0 +1,12 @@
+.nav-header {
+    background-color: #021519;
+    border-bottom: #40b5cb solid 5px;
+}
+
+.nav-image {
+    width: 200px;
+}
+
+.nav-image:hover {
+    cursor: pointer;
+}
