@@ -1,27 +1,38 @@
-# RickAndMorty
+# 🛸 Rick and Morty App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+**Rick and Morty App** es una aplicación web sencilla desarrollada con **Angular 15** que consume la [API pública de Rick and Morty](https://rickandmortyapi.com/).  
+Permite explorar personajes, episodios y ubicaciones de la popular serie animada.
 
-## Development server
+## 🎯 Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🔍 **Listado de personajes** con imágenes, nombres, especie y estado.
+- 📄 **Paginación** para navegar entre los resultados.
+- 🧭 **Búsqueda** de personajes por nombre.
+- 📺 **Detalle de personaje** con información adicional (episodios, origen, ubicación).
+- 🌍 **Exploración de ubicaciones** y **episodios** *(opcional)*.
 
-## Code scaffolding
+## 🛠️ Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **[Angular 15](https://angular.dev/)** – Framework principal.
+- **TypeScript** – Lenguaje de programación.
+- **RxJS** – Manejo de peticiones asincrónicas.
+- **SCSS** – Estilos personalizados.
+- **Angular Material / Bootstrap** *(opcional)* – Interfaz de usuario.
 
-## Build
+## 📦 Instalación y ejecución
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para ejecutar el proyecto localmente:
 
-## Running unit tests
+```bash
+# 1️⃣ Clonar el repositorio
+git clone https://github.com/usuario/rick-and-morty-app.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# 2️⃣ Entrar al directorio
+cd rick-and-morty-app
 
-## Running end-to-end tests
+# 3️⃣ Instalar dependencias
+npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# 4️⃣ Ejecutar el servidor de desarrollo
+ng serve
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
