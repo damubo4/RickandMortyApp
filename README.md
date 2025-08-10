@@ -25,7 +25,7 @@ Para ejecutar el proyecto localmente:
 
 ```bash
 # 1️⃣ Clonar el repositorio
-git clone https://github.com/usuario/rick-and-morty-app.git
+git clone https://github.com/damubo4/RickandMortyApp
 
 # 2️⃣ Entrar al directorio
 cd rick-and-morty-app
